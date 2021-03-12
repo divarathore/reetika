@@ -3,6 +3,8 @@ html {
 }
 .clouds {
   background-image: url("/images/pexels-eberhard-grossgasteiger-844297.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1 {
   text-align: center;
@@ -40,4 +42,12 @@ p {
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  h1, h4 {
+    color: rgb(148, 13, 40);
+  }
 }
