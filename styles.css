@@ -1,0 +1,30 @@
+html {
+    background-color: rgba(137, 43, 226, 0.158);
+}
+
+h1, h4 {
+    text-align: center;
+    margin-top: 1%;
+    color: blueviolet;
+}
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(63, 20, 104);
+}
+p {
+    font-size: 1.25rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(137, 43, 226, 0.514);
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
