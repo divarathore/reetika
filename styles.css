@@ -1,15 +1,22 @@
 html {
     background-color: rgba(137, 43, 226, 0.158);
 }
-
-h1, h4 {
+h1 {
+  text-align: center;
+  margin-top: 1%;
+  color: blueviolet;
+}
+span {
+  color: rgba(165, 99, 226, 0.687);
+}
+h2, h4 {
     text-align: center;
     margin-top: 1%;
     color: blueviolet;
 }
 a {
     font-size: 2rem;
-    text-decoration: none;
+    text-decoration: none; 
     color: rgb(63, 20, 104);
 }
 p {
@@ -18,11 +25,11 @@ p {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: rgba(137, 43, 226, 0.514);
+  background-color: rgba(137, 43, 226, 0.303);
   padding: 10px;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.575);
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
   font-size: 30px;
