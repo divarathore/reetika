@@ -4,7 +4,7 @@
   background-attachment: fixed;
 } */
 .clouds {
-  background-image: url("/images/pexels-eberhard-grossgasteiger-844297.jpg");
+  background-image: url("./images/pexels-eberhard-grossgasteiger-844297.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
