@@ -1,11 +1,13 @@
 html {
-    background-color: rgba(226, 43, 128, 0.158);
-}
-.clouds {
   background-image: url("/images/pexels-eberhard-grossgasteiger-844297.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+/* .clouds {
+  background-image: url("/images/pexels-eberhard-grossgasteiger-844297.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
 h1 {
   text-align: center;
   margin-top: 3%;
