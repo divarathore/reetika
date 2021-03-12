@@ -1,35 +1,41 @@
 html {
-    background-color: rgba(137, 43, 226, 0.158);
+    background-color: rgba(226, 43, 128, 0.158);
+}
+.clouds {
+  background-image: url("/images/pexels-eberhard-grossgasteiger-844297.jpg");
 }
 h1 {
   text-align: center;
-  margin-top: 1%;
-  color: blueviolet;
+  margin-top: 3%;
+  color: rgb(54, 5, 15);
 }
-span {
-  color: rgba(165, 99, 226, 0.687);
-}
+/* span {
+  color: rgba(226, 99, 148, 0.687);
+} */
 h2, h4 {
     text-align: center;
     margin-top: 1%;
-    color: blueviolet;
+    color: rgb(109, 9, 29);
 }
 a {
     font-size: 2rem;
     text-decoration: none; 
-    color: rgb(63, 20, 104);
+    color: rgb(109, 9, 29);
 }
 p {
     font-size: 1.25rem;
 }
+.empty {
+  color: rgba(94, 94, 94, 0.199);
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: rgba(137, 43, 226, 0.303);
+  background-color: rgba(137, 43, 226, 0.068);
   padding: 10px;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.575);
+  background-color: rgba(255, 255, 255, 0.274);
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
   font-size: 30px;
